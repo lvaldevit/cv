@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <title>Pikachu</title>
+</head>
+
+<script>
+    $( document ).ready(function() {
+        
+        $(".bubulle").click(function(){
+            alert("Adresse : 11 rue de la Paix 02200 Soissons \n Né le 09/02/1988 \n Téléphone : 06.13.22.81.86 \n Permis B \n l.valdevit@gmail.com")
+        });
+
+    });
+</script>
+
+<body>
+<!--     <div class="pikachu-container">
+        <div class="oreille-gauche"></div>
+        <div class="oreille-droite"></div>
+        <div class="tete"></div>
+    </div> -->
+
+<div class="page-container">
+
+    <!-- En tête de page -->
+    <header>
+
+        <!-- Bloc n°01 -->
+        <div class="infos" id="premier">
+            <h1>Loïc VALDEVIT</h1>
+            <h2>Projet de reconversion en programmation informatique</h2>
+        </div> <!-- Fin du bloc 01 -->
+
+        <!-- Bouton menu mobile -->
+        <div class="bubulle">
+            <p>i</p>
+        </div>
+        
+        <!-- Bloc n°02 -->
+        <div class="infos" id="second">
+            <p>11 rue de la Paix 02200 Soissons 🏠</p>
+            <p>Né le 09/02/1988 🎂</p>
+            <p><a href="tel:0613228186">06.13.22.81.86</a> 📱</p>
+            <p>Permis B 🚗</p>
+            <p><a href="mailto:l.valdevit@gmail.com">l.valdevit@gmail.com</a> 📬</p>
+        </div> <!-- Fin du bloc 02 -->
+
+    </header>
+    <!-- Fin de l'en tête de page-->
+
+    <article>
+        <div class="section-globale">
+            <div class="sous-section" id="premier">
+                <div class="trait-et-titre"></div>
+                <div class="trait-et-titre">
+                    <h3>Compétences Techniques</h3>
+                </div>
+            </div>
+            <div class="sous-section" id="second">
+                <div class="ligne">
+                    <div class="sous-division">
+                        <p>Programmation</p>
+                    </div>
+                    <div class="sous-division">
+                        <ul>
+                            <li>Bases en programmation web (HTML, CSS, JS & PHP).</li>
+                            <li>Commandes de base UNIX et Windows.</li>
+                            <li>Bases algorithmiques.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ligne">
+                    <div class="sous-division">
+                        <p>Réseau</p>
+                    </div>
+                    <div class="sous-division">
+                        <ul>
+                            <li>Bases en sécurisation des réseaux et applications informatiques (Firewall, Proxy, VPN, IDS, IPS, Segmentation, ACL, GPO...).</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ligne">
+                    <div class="sous-division">
+                        <p>Maintenance informatique</p>
+                    </div>
+                    <div class="sous-division">
+                        <ul>
+                            <li>Capacité d'analyse des défaillances.</li>
+                            <li>Remplacement de périphériques.</li>
+                            <li>Installation d'OS.</li>
+                            <li>Configuration de logiciels.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ligne">
+                    <div class="sous-division">
+                        <p>Bureautique</p>
+                    </div>
+                    <div class="sous-division">
+                        <ul>
+                            <li>Maîtrise du pack Microsoft Office.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ligne">
+                    <div class="sous-division">
+                        <p>Langues étrangères</p>
+                    </div>
+                    <div class="sous-division">
+                        <ul>
+                            <li>Maîtrise de l'anglais écrit.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-globale">
+            <div class="sous-section" id="premier">
+                <div class="trait-et-titre"></div>
+                <div class="trait-et-titre">
+                    <h3>Diplômes & formations</h3>
+                </div>
+            </div>
+            <div class="sous-section" id="second">
+                <div class="ligne">
+                    <div class="sous-division">
+                        <p>2021</p>
+                    </div>
+                    <div class="sous-division">
+                        <p><span class="bold">Techniques de base de la cyber sécurité</span> - <span class="colored-text">GRETA</span> - Soissons</p>
+                    </div>
+                </div>
+                <div class="ligne">
+                    <div class="sous-division">
+                        <p>De 2007 à 2009</p>
+                    </div>
+                    <div class="sous-division">
+                        <p><span class="bold">D.U.T QLIO (Qualité Logistique Industrielle & Organisation)</span> - <span class="colored-text">I.U.T</span> - Cuffies</p>
+                    </div>
+                </div>
+                <div class="ligne">
+                    <div class="sous-division">
+                        <p>De 2005 à 2007</p>
+                    </div>
+                    <div class="sous-division">
+                        <p><span class="bold">BAC Scientifique</span> - <span class="colored-text">Lycée Gérard de Nerval</span> - Soissons</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-globale">
+            <div class="sous-section" id="premier">
+                <div class="trait-et-titre"></div>
+                <div class="trait-et-titre">
+                    <h3>Expériences professionnelles</h3>
+                </div>
+            </div>
+            <div class="sous-section" id="second">
+                <div class="ligne">
+                    <div class="sous-division">
+                        <p>De 2013 à 2016</p>
+                    </div>
+                    <div class="sous-division">
+                        <p><span class="bold">Employé de libre-service</span> - <span class="colored-text">Carrefour Market</span> - Mercin-et-Vaux</p>
+                    </div>
+                </div>
+                <div class="ligne">
+                    <div class="sous-division">
+                        <p>2012</p>
+                    </div>
+                    <div class="sous-division">
+                        <p><span class="bold">Contrôleur qualité</span> - <span class="colored-text">LCM</span> - Crépy-en-Valois</p>
+                    </div>
+                </div>
+                <div class="ligne">
+                    <div class="sous-division">
+                        <p>De 2011 à 2012</p>
+                    </div>
+                    <div class="sous-division">
+                        <p><span class="bold">Préparateur de commandes</span> - <span class="colored-text">Kuehne Nagel</span> - Dammartin-en-Goële</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-globale">
+            <div class="sous-section" id="premier">
+                <div class="trait-et-titre"></div>
+                <div class="trait-et-titre">
+                    <h3>Réalisations personnelles</h3>
+                </div>
+            </div>
+            <div class="sous-section" id="second">
+                <div class="ligne">
+                    <div class="sous-division">
+                        <p>Programmation</p>
+                    </div>
+                    <div class="sous-division">
+                        <ul>
+                            <li>Déploiement d'un site Wordpress dans un environnement local.</li>
+                            <li>Conception & réalisation d'un gestionnaire de mots de passe local sécurisé.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ligne">
+                    <div class="sous-division">
+                        <p>Réseau</p>
+                    </div>
+                    <div class="sous-division">
+                        <ul>
+                            <li>Mise en réseau d'ordinateurs (LAN & VLAN).</li>
+                            <li>Installation & Mise en production d'un serveur NAS privé.</li>
+                            <li>Installation & déploiement de serveurs Proxy & VPN sur VPS.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </article>
+
+    <footer>
+        <p>Réalisé par Loïc Valdevit suite à une formation en cyber sécurité.</p>
+    </footer>
+</div>
+
+</body>
+</html>
